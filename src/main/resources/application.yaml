@@ -1,0 +1,8 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Aftas
+    username: postgres
+    password: Nouhailakhaouti1...
+  liquibase:
+   change-log: db/changelog/master.xml
