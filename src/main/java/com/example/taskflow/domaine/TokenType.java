@@ -1,2 +1,5 @@
-package com.example.taskflow.domaine;public enum TokenType {
+package com.example.taskflow.domaine;
+
+public enum TokenType {
+    BEARER
 }

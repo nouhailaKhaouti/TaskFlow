@@ -21,13 +21,10 @@ import org.slf4j.Logger;
 @Service
 @RequiredArgsConstructor
 public class UserService {
-  /*  private final UserRepository userRepository;
-    private static final Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
-
     private final PasswordEncoder passwordEncoder;
     private final UserRepository repository;
 
-    @Override
+/*
     public void changePassword(ChangePasswordRequest request, Principal connectedUser) {
 
         var user = (User) ((UsernamePasswordAuthenticationToken) connectedUser).getPrincipal();
